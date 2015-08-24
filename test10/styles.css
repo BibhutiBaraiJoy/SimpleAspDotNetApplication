@@ -1,0 +1,188 @@
+body{
+margin: 0px;
+padding: 10px;
+}
+* {
+box-sizing: border-box;
+}
+.popupDiv
+{
+	display:none;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	min-width:175px;
+	text-align:center;
+	margin:auto;
+}
+th, td {
+    padding: 5px;
+}
+th{
+background-color:#F6F6FF;
+}
+table tr:nth-child(odd){ 
+		background: #DBB8FF;
+	}
+table tr:nth-child(even){ 
+		background: #FFFF99;
+	}
+.gridDiv >div label{
+		margin:0 200px 0px 50px;
+}
+.myform >h2{
+	text-align:center;
+}
+.myform >div{
+	position: relative;
+	padding-bottom:10px;
+}
+.form-medium {
+	width: 30%;
+	margin: auto;}
+.myform >div label {
+	display: block;
+	margin-bottom: 8px;
+}
+.myform >div:after{
+	clear: both;
+	content: '';
+	display: table;
+}
+.myform input[type="text"]{
+	width: 100%;
+	padding: 4px 6px;
+	border: 1px solid #e2e4e6;
+	background-color: #ffffff;
+}
+.myform textarea{
+	width: 100%;
+	padding: 4px 6px;
+	border: 1px solid #e2e4e6;
+	background-color: #ffffff;
+}
+
+.myform button[type="submit"]{
+	margin-left:55%;
+	text-align:center;
+	width: 40%;
+	color: #fff;
+	font-size: 18px;
+	padding: 4px 6px;
+	border: 1px solid #e2e4e6;
+	background-color: green;
+    position:relative;
+	
+}
+
+.updateform >h2{
+	text-align:center;
+}
+.updateform >div{
+	position: relative;
+	padding-bottom:10px;
+}
+.form-Update {
+	width: 30%;
+	margin: auto;}
+.updateform >div label {
+	display: block;
+	margin-bottom: 8px;
+}
+.updateform >div:after{
+	clear: both;
+	content: '';
+	display: table;
+}
+.updateform input[type="text"]{
+	width: 100%;
+	padding: 4px 6px;
+	border: 1px solid #e2e4e6;
+	background-color: #ffffff;
+}
+.updateform textarea{
+	width: 100%;
+	padding: 4px 6px;
+	border: 1px solid #e2e4e6;
+	background-color: #ffffff;
+}
+
+.updateform button[type="submit"]{
+	margin-left:50%;
+	text-align:center;
+	width: 20%;
+	color: #fff;
+	font-size: 18px;
+	padding: 4px 6px;
+	border: 1px solid #e2e4e6;
+	background-color: green;
+    position:relative;
+	float:left;
+	
+}
+.updateform button[type="reset"]{
+	text-align:center;
+	width: 20%;
+	color: #fff;
+	font-size: 18px;
+	padding: 4px 6px;
+	border: 1px solid #e2e4e6;
+	background-color: #99FFCC;
+    position:relative;
+	float:right;
+	
+}
+.gridDiv{
+	
+}
+.gridDiv button[type="button"]{
+	text-align:center;
+	width: 10%;
+	color: #fff;
+	font-size: 18px;
+	padding: 4px 6px;
+	border: 1px solid #e2e4e6;
+    position:relative;
+	margin:10px;
+}
+.gridDiv input[type="text"]{
+	width: 20%;
+	padding: 4px 6px;
+	border: 1px solid #e2e4e6;
+	background-color: #ffffff;
+	}
+#editButton{
+	text-align:center;
+	width: 40%;
+	color: #fff;
+	font-size: 12px;
+	border: 1px solid #e2e4e6;
+	background-color: #85FF85;
+    position:relative;
+	margin:10px 10px 1px 10px;
+	float:left;
+
+}
+#deleteButton{
+	text-align:center;
+	width: 40%;
+	color: #fff;
+	font-size: 12px;
+	border: 1px solid #e2e4e6;
+	background-color: #FF9898;
+    position:relative;
+	margin:10px 10px 10px 1px;
+	float:right;
+	
+}
+#searchButton{
+background-color: #66CCFF;
+}
+#refreshButton{
+background-color: #85FF85;
+}
+#clearButton{
+background-color: #FFB280;
+}
+
